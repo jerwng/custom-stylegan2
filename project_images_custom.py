@@ -5,7 +5,7 @@ import numpy as np
 
 import dnnlib
 import dnnlib.tflib as tflib
-import pretrained_networks
+import pretrained_networks_custom
 import projector
 import dataset_tool
 from training import dataset
