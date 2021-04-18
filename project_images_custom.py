@@ -105,7 +105,7 @@ def main():
     args = parser.parse_args()
 
     print('Loading networks from "%s"...' % args.network_pkl)
-    _G, _D, Gs = pretrained_networks.load_networks(args.network_pkl)
+    _G, _D, Gs = pretrained_networks_custom.load_networks(args.network_pkl)
     proj = projector.Projector(
         vgg16_pkl             = args.vgg16_pkl,
         num_steps             = args.num_steps,
